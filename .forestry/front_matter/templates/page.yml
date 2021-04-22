@@ -32,4 +32,4 @@ fields:
   config:
     required: true
 pages:
-- style-guide.md
+- content/style-guide.md

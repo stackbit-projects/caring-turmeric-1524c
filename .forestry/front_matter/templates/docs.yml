@@ -5,22 +5,19 @@ fields:
 - type: text
   name: title
   label: Title
-  description: >-
-    The title of the page, used both as a page title and as a navigation menu
-    title
+  description: The title of the page, used both as a page title and as a navigation
+    menu title
   config:
     required: true
 - type: number
   name: weight
   label: Weight
-  description: >-
-    The navigation order of the documentation page. This value is ignored for
-    parent section pages.
+  description: The navigation order of the documentation page. This value is ignored
+    for parent section pages.
 - type: text
   name: excerpt
   label: Excerpt
-  description: >-
-    Short description of the documentation section. Displayed in documentation
+  description: Short description of the documentation section. Displayed in documentation
     overview section.
 - type: field_group
   name: seo
@@ -38,18 +35,18 @@ fields:
   config:
     required: true
 pages:
-- docs/about/features.md
-- docs/about/_index.md
-- docs/about/overview.md
-- docs/community/_index.md
-- docs/faq/_index.md
-- docs/getting-started/_index.md
-- docs/getting-started/installation.md
-- docs/getting-started/quick-start.md
-- docs/_index.md
-- docs/manage-content/_index.md
-- docs/tools/_index.md
-- docs/tools/plug-ins.md
-- docs/tools/starter-theme.md
-- docs/ui-components/_index.md
-- docs/ui-components/typography.md
+- content/docs/_index.md
+- content/docs/about/_index.md
+- content/docs/about/features.md
+- content/docs/about/overview.md
+- content/docs/community/_index.md
+- content/docs/faq/_index.md
+- content/docs/getting-started/_index.md
+- content/docs/getting-started/installation.md
+- content/docs/getting-started/quick-start.md
+- content/docs/manage-content/_index.md
+- content/docs/tools/_index.md
+- content/docs/tools/plug-ins.md
+- content/docs/tools/starter-theme.md
+- content/docs/ui-components/_index.md
+- content/docs/ui-components/typography.md

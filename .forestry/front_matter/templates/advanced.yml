@@ -34,6 +34,6 @@ fields:
   config:
     required: true
 pages:
-- _index.md
-- overview.md
-- showcase.md
+- content/_index.md
+- content/overview.md
+- content/showcase.md
