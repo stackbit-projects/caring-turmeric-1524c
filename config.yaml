@@ -89,6 +89,7 @@ params:
         style: icon
         icon_class: github
         new_window: true
+  domain: 'https://caring-turmeric-1524c.netlify.app'
 taxonomies:
   stub: stub
 disableKinds:
